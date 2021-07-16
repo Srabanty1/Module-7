@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .container{
+            display: flex;
+            max-width: 100px;
+            flex-direction: row;
+            margin:0 auto;
+            flex-wrap: wrap;
+        }
+        .boyband{
+            border:3px solid rosybrown;
+            margin:10px;
+            border-radius: 5px;
+            width: 500px;
+
+        
+    }
+    .boyband img{
+        width:100%;
+    }
+    @media (max-width: 760px){
+        .container .boyband{
+            background-color: rosybrown;
+        }
+    }
+    @media (min-width: 1200px){
+        .container .boyband{
+            background-color: orange;
+        }
+    }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="boyband"><img src="image.jpg" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quo ipsum sit dolorem libero blanditiis maiores odio harum quis quidem?</div>
+        <div class="boyband"><img src="image.jpg" alt="">Delectus dolor dignissimos placeat debitis quasi nemo expedita vero praesentium culpa? Impedit eum quaerat deleniti quibusdam accusantium inventore in voluptatum!</div>
+        <div class="boyband"><img src="image.jpg" alt="">Doloremque, exercitationem error nam temporibus debitis minima culpa deserunt neque quisquam magnam modi distinctio nemo odio earum nostrum nisi magni.</div>
+        <div class="boyband"><img src="image.jpg" alt="">Nisi quasi minus sequi quos est ducimus voluptates, nihil soluta explicabo, ullam consequatur dolor aspernatur expedita! Eos, vero voluptatem! Alias?</div>
+        <div class="boyband"><img src="image.jpg" alt="">Voluptate recusandae laboriosam, eum dolorem repellendus ea est sed harum facilis inventore qui minima aliquid, dolores necessitatibus explicabo? Praesentium, hic.</div>
+        <div class="boyband"><img src="image.jpg" alt="">Commodi asperiores possimus aperiam debitis. Sequi voluptates ducimus nihil voluptate rem illum molestiae possimus assumenda? Est cupiditate repudiandae aut provident.</div>
+        
+    </div>
+    
+</body>
+</html>
